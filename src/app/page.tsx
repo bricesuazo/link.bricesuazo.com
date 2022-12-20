@@ -6,7 +6,7 @@ export default function Home() {
   if (!links) notFound();
   return (
     <main className="flex h-screen flex-col items-center justify-center gap-y-2 ">
-      <p className="text-xl font-bold">Brice Suazo&apos;s Link Page</p>
+      <p className="text-2xl font-bold">Brice Suazo&apos;s Link Page</p>
       <ul className="flex flex-col items-center gap-y-1">
         {links.map((link, index) => {
           const Icon = links[index].icon;
