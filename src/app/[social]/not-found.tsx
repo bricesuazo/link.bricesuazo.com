@@ -1,3 +1,5 @@
+import PageNotFound from "../../components/PageNotFoundLayout";
+
 export default function NotFound() {
-  return "Couldn't find social link";
+  return <PageNotFound>Couldn't find links</PageNotFound>;
 }
