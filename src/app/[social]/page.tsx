@@ -1,26 +1,14 @@
+import { notFound } from "next/navigation";
 import { links } from "../../constants";
-import { notFound, redirect } from "next/navigation";
 
 const Social = ({ params: { social } }: { params: { social: string } }) => {
   if (
     !social ||
-    !links.find(
-      (link) => link.name.toLocaleLowerCase() === social.toLocaleLowerCase()
-    ) ||
-    links.find(
-      (link) => link.name.toLocaleLowerCase() === social.toLocaleLowerCase()
-    ) === undefined
-  ) {
+    !links.find((link) => link.slug === social.toLocaleLowerCase()) ||
+    links.find((link) => link.slug === social.toLocaleLowerCase()) === undefined
+  )
     notFound();
-  }
-
-  // redirect(
-  //   links.find(
-  //     (link) => link.name.toLocaleLowerCase() === social.toLocaleLowerCase()
-  //   )?.url!
-  // );
-
-  redirect("https://www.google.com/");
+  return <div></div>;
 };
 
 export default Social;

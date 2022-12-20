@@ -4,7 +4,7 @@ export default function Head() {
       <title>Links - Brice Suazo</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Brice Suazo's Link Page" />
-      {/* <link rel="icon" href="/favicon.ico" /> */}
+      <link rel="icon" href="/images/favicon.png" />
     </>
   );
 }
