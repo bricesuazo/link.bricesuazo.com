@@ -5,6 +5,10 @@ import {
   FaLinkedin,
   FaTwitter,
   FaYoutube,
+  FaRegEnvelope,
+  FaTiktok,
+  FaSpotify,
+  FaRedditAlien
 } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
 
@@ -17,6 +21,13 @@ export const links: {
 }[] = [
   {
     id: 0,
+    name: "Email",
+    slug: "email",
+    url: "mailto:contact@bricesuazo.com",
+    icon: FaRegEnvelope,
+  },
+  {
+    id: 1,
     name: "GitHub",
     slug: "github",
     url: "https://github.com/bricesuazo/",
@@ -24,38 +35,59 @@ export const links: {
   },
 
   {
-    id: 1,
+    id: 2,
     name: "Twitter",
     slug: "twitter",
     url: "https://twitter.com/brice_suazo",
     icon: FaTwitter,
   },
   {
-    id: 2,
+    id: 3,
     name: "Facebook",
     slug: "facebook",
     url: "https://www.facebook.com/bricesuazo",
     icon: FaFacebook,
   },
   {
-    id: 3,
+    id: 4,
     name: "Instagram",
     slug: "instagram",
     url: "https://www.instagram.com/brice_suazo/",
     icon: FaInstagram,
   },
   {
-    id: 4,
+    id: 5,
     name: "YouTube",
     slug: "youtube",
     url: "https://www.youtube.com/bricesuazo",
     icon: FaYoutube,
   },
   {
-    id: 5,
+    id: 6,
+    name: "TikTok",
+    slug: "tiktok",
+    url: "https://www.tiktok.com/@bricesuazo",
+    icon: FaTiktok,
+  },
+  {
+    id: 7,
     name: "LinkedIn",
     slug: "linkedin",
     url: "https://www.linkedin.com/in/bricesuazo/",
     icon: FaLinkedin,
+  },
+  {
+    id: 8,
+    name: "Spotify",
+    slug: "spotify",
+    url: "https://open.spotify.com/user/5zjazbzw6c4tzfm9aui3h4jxx",
+    icon: FaSpotify,
+  },
+  {
+    id: 9,
+    name: "Reddit",
+    slug: "reddit",
+    url: "https://www.reddit.com/user/BriceSuazo",
+    icon: FaRedditAlien,
   },
 ];
