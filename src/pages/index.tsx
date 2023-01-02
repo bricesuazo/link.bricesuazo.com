@@ -1,15 +1,12 @@
 import { links } from "../constants";
 import Link from "next/link";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <div className="flex h-screen flex-col items-center justify-center gap-y-2 text-base">
         <div className="max-w-screen-sm">
-          <p className="text-center text-base font-semibold">Links</p>
+          <p className="mb-2 text-center text-base font-semibold">Links</p>
           <ul className="flex flex-wrap justify-center gap-2">
             {links.map((link, index) => {
               const Icon = links[index].icon;
@@ -29,7 +26,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
