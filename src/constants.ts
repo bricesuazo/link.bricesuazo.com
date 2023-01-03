@@ -8,7 +8,7 @@ import {
   FaRegEnvelope,
   FaTiktok,
   FaSpotify,
-  FaRedditAlien
+  FaRedditAlien,
 } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
 
@@ -89,5 +89,43 @@ export const links: {
     slug: "reddit",
     url: "https://www.reddit.com/user/BriceSuazo",
     icon: FaRedditAlien,
+  },
+];
+
+export const projects: {
+  id: number;
+  name: string;
+  slug: string;
+  url: string;
+}[] = [
+  {
+    id: 0,
+    name: "eBoto Mo",
+    slug: "eboto",
+    url: "https://eboto-mo.com",
+  },
+  {
+    id: 1,
+    name: "Jib",
+    slug: "jib",
+    url: "https://jib.im",
+  },
+  {
+    id: 2,
+    name: "CvSU.me",
+    slug: "cvsu.me",
+    url: "https://cvsu.me",
+  },
+  {
+    id: 3,
+    name: "Gulaman Entertainment",
+    slug: "gulaman",
+    url: "https://gulamanentertainment.com",
+  },
+  {
+    id: 4,
+    name: "Gulaman Entertainment Link Page",
+    slug: "link.gulaman",
+    url: "https://links.gulamanentertainment.com",
   },
 ];
