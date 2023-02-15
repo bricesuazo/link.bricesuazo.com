@@ -106,24 +106,30 @@ export const projects: {
   },
   {
     id: 1,
+    name: "scrtmsg.me",
+    slug: "scrtmsg",
+    url: "https://scrtmsg.me",
+  },
+  {
+    id: 2,
     name: "Jib",
     slug: "jib",
     url: "https://jib.im",
   },
   {
-    id: 2,
+    id: 3,
     name: "CvSU.me",
     slug: "cvsu.me",
     url: "https://cvsu.me",
   },
   {
-    id: 3,
+    id: 4,
     name: "Gulaman Entertainment",
     slug: "gulaman",
     url: "https://gulamanentertainment.com",
   },
   {
-    id: 4,
+    id: 5,
     name: "Gulaman Entertainment Link Page",
     slug: "link.gulaman",
     url: "https://links.gulamanentertainment.com",
