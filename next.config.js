@@ -1,4 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = nextConfig;
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: "/cv",
+        destination: "/Brice Suazo - CV 2023.pdf",
+        permanent: true,
+      },
+    ];
+  },
+};
