@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function Header() {
@@ -29,9 +29,9 @@ export default function Header() {
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         className="cursor-pointer select-none rounded-full border border-transparent p-2 transition-colors hover:border-gray-500"
       >
-        {theme === "dark" ? <FaSun /> : <FaMoon />}
+        <FaSun className="dark:block hidden" />
+        <FaMoon className="dark:hidden block" />
       </div>
     </header>
   );
-};
-
+}
