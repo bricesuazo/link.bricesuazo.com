@@ -3,12 +3,12 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaRedditAlien,
+  FaRegEnvelope,
+  FaSpotify,
+  FaTiktok,
   FaTwitter,
   FaYoutube,
-  FaRegEnvelope,
-  FaTiktok,
-  FaSpotify,
-  FaRedditAlien,
 } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
 

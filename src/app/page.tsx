@@ -1,4 +1,4 @@
-import { links, projects } from "../constants";
+import { links, projects } from "@/constants";
 import Link from "next/link";
 
 export default function Home() {

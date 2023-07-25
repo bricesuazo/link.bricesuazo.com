@@ -1,9 +1,11 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { FaMoon, FaSun } from "react-icons/fa";
 
-const Header = () => {
+export default function Header() {
   const { theme, setTheme } = useTheme();
 
   return (
@@ -33,4 +35,3 @@ const Header = () => {
   );
 };
 
-export default Header;
