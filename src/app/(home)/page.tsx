@@ -4,6 +4,21 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="mx-auto flex h-screen max-w-screen-sm flex-col items-center justify-center gap-y-8 py-8 text-base sm:gap-y-16">
+      <div className="">
+        <Link
+          href="/cv"
+          className="flex w-fit items-center gap-x-2 rounded-md border border-gray-500 border-opacity-0 px-4 py-2 hover:border-opacity-100"
+        >
+          My Curriculum Vitae
+        </Link>
+        <Link
+          href="./Brice Suazo - CV 2023.pdf"
+          className="flex w-fit items-center gap-x-2 rounded-md border border-gray-500 border-opacity-0 px-4 py-2 hover:border-opacity-100"
+        >
+          My Curriculum Vitae
+        </Link>
+      </div>
+
       <div>
         <p className="mb-2 text-center text-base font-semibold">Links</p>
         <ul className="flex flex-wrap justify-center gap-2">

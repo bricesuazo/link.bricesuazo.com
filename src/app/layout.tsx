@@ -1,5 +1,3 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/globals.css";
 import { Metadata } from "next";
@@ -19,7 +17,7 @@ export const metadata: Metadata = {
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({
+export default function HomeLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -28,9 +26,7 @@ export default function RootLayout({
     <html className={`${inter.className}`}>
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <Header />
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
