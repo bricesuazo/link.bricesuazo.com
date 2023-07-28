@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Brice Suazo - CV 2023",
 };
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: React.PropsWithChildren) {
   // redirect("/Brice Suazo - CV 2023.pdf");
   return <>{children}</>;
 }
